@@ -16,7 +16,8 @@ var World = {
         //var location = new AR.RelativeLocation(geoLoc, 1, 2, 1)
 
         /* Next the model object is loaded. */
-        var modelEarth = new AR.Model("assets/TV.wt3", {
+        /* Next the model object is loaded. */
+        var modelEarth = new AR.Model("assets/earth.wt3", {
             onError: World.onError,
             scale: {
                 x: 1,
@@ -25,14 +26,8 @@ var World = {
             },
             rotate: {
                 x: 180,
-                y: 0,
-                z: 90.0
-            },
-            translate: {
-                x: 5,
-                y: 5,
-                z: 0
-              },
+                y: 180
+            }
         });
 //create a new Model and pass some setup parameters
 //var modelEarth = new AR.Model("models/TV.wt3", {
