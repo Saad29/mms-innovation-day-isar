@@ -10,10 +10,13 @@ var World = {
             First a location where the model should be displayed will be defined. This location will be relativ to
             the user.
         */
+        //var geoLoc = new AR.GeoLocation(48.192862,11.5857864, 505.);
+        //var geoLoc = new AR.GeoLocation(48.192862,11.5857864, 505.);
         var location = new AR.RelativeLocation(null, 5, 0, 2);
+        //var location = new AR.RelativeLocation(geoLoc, 1, 2, 1)
 
         /* Next the model object is loaded. */
-        var modelEarth = new AR.Model("assets/earth.wt3", {
+        var modelEarth = new AR.Model("assets/TV.wt3", {
             onError: World.onError,
             scale: {
                 x: 1,
