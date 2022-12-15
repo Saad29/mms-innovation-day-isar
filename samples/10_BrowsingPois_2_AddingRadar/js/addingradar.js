@@ -208,7 +208,7 @@ var World = {
 
         /* Use GET request to fetch the JSON data from the server */
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', serverUrl, true);
+        xhr.open('GET', 'https://firebasestorage.googleapis.com/v0/b/mediamarkcodingchallenge.appspot.com/o/json_data.json?alt=media&token=ecdef9a7-2df2-48ce-93e2-cb548a551908', true);
         xhr.responseType = 'json';
         xhr.onload = function() {
             var status = xhr.status;
