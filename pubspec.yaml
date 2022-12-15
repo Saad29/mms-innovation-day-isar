@@ -13,7 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.3
   location: ^4.1.1
   path_provider: ^2.0.1
-  wakelock: ^0.5.1
+  #wakelock: ^0.6.2
 
   augmented_reality_plugin_wikitude:
     path: ./plugin/augmented_reality_plugin_wikitude/
