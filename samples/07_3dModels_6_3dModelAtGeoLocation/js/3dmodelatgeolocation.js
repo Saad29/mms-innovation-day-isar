@@ -11,12 +11,12 @@ var World = {
             the user.
         */
         //var geoLoc = new AR.GeoLocation(48.192862,11.5857864, 505.);
-        //var geoLoc = new AR.GeoLocation(48.192862,11.5857864, 505.);
-        var location = new AR.RelativeLocation(null, 5, 0, 2);
-        //var location = new AR.RelativeLocation(geoLoc, 1, 2, 1)
+        var geoLoc = new AR.GeoLocation(48.192862,11.5857864, 505.);
+        //var location = new AR.RelativeLocation(null, 5, 5, 2);
+        var location = new AR.RelativeLocation(geoLoc, 1, 2, 1)
 
         /* Next the model object is loaded. */
-        var modelEarth = new AR.Model("assets/TV.wt3", {
+        var modelEarth = new AR.Model("assets/simcard.wt3", {
             onError: World.onError,
             scale: {
                 x: 1,
@@ -25,7 +25,7 @@ var World = {
             },
             rotate: {
                 x: 180,
-                y: 180
+                y: 90
             }
         });
 
