@@ -1,0 +1,61 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# iOS stuff
+ios/Runner/container/*
+ios/Runner/GoogleService-Info.plist
+ios/Flutter/.last_build_id
+ios/vendor/
+ios/.bundle/*
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+**/.idea/*
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# NPM stuff
+**/node_modules/
+
+# Flutter Version Manager integration
+**/.fvm/flutter_sdk
+
+# Exclude run configurations
+!**/.idea/runConfigurations/
+
+# Coverage files
+coverage/
+
+# fastlane report
+/ios/fastlane/report.xml
+
+# git patch files
+/*.patch
+
+# vim local settings
+.vim/
+/ios/fastlane/README.md
