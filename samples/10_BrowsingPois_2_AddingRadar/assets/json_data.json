@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "longitude": "11.6385472",
+    "latitude": "48.1819552",
+    "description": "In this section you will find all kinds of headphones.",
+    "name": "Headphones",
+    "type": "headphone"
+  },
+  {
+    "id": "2",
+    "longitude": "11.6175472",
+    "latitude": "48.2679552",
+    "description": "In this section you will find all kinds of TVs.",
+    "name": "TVs",
+    "type": "tv"
+  },
+  {
+    "id": "3",
+    "longitude": "11.5505472",
+    "latitude": "48.2789552",
+    "description": "In this section you will find all kinds of mice.",
+    "name": "Mouse",
+    "type": "mouse"
+  }
+]

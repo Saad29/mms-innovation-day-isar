@@ -1,15 +1,15 @@
 // This is a generated file; do not edit or check into version control.
-FLUTTER_ROOT=/Users/binsajjad/Developer/flutter
-FLUTTER_APPLICATION_PATH=/Users/binsajjad/Developer/AR/wikitude-flutter-plugin-examples-master
+FLUTTER_ROOT=/Users/hartmannkh/development/flutter
+FLUTTER_APPLICATION_PATH=/Users/hartmannkh/Desktop/InnovationDays/mms-innovation-day-isar
 COCOAPODS_PARALLEL_CODE_SIGN=true
-FLUTTER_TARGET=/Users/binsajjad/Developer/AR/wikitude-flutter-plugin-examples-master/lib/main.dart
+FLUTTER_TARGET=/Users/hartmannkh/Desktop/InnovationDays/mms-innovation-day-isar/lib/main.dart
 FLUTTER_BUILD_DIR=build
 FLUTTER_BUILD_NAME=9.9.0
 FLUTTER_BUILD_NUMBER=1
 EXCLUDED_ARCHS[sdk=iphonesimulator*]=i386
-DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==
+EXCLUDED_ARCHS[sdk=iphoneos*]=armv7
+DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==
 DART_OBFUSCATION=false
-EXTRA_FRONT_END_OPTIONS=--no-sound-null-safety
 TRACK_WIDGET_CREATION=true
 TREE_SHAKE_ICONS=false
-PACKAGE_CONFIG=/Users/binsajjad/Developer/AR/wikitude-flutter-plugin-examples-master/.dart_tool/package_config.json
+PACKAGE_CONFIG=/Users/hartmannkh/Desktop/InnovationDays/mms-innovation-day-isar/.dart_tool/package_config.json
