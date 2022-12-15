@@ -1,6 +1,6 @@
 [
     {
-        "category_name": "3D Models",
+        "category_name": "3D Model",
         "samples": [
             {
                 "name": "3d Model At Geo Location",
@@ -18,7 +18,7 @@
 
 
     {
-        "category_name": "Browsing Pois",
+        "category_name": "Browsing Products",
         "samples": [
             {
                 "name": "Adding Radar",
@@ -37,7 +37,7 @@
         "category_name": "Video",
         "samples": [
             {
-                "name": "Bonus: Transparent Video",
+                "name": "Commercials: Transparent Video",
                 "path": "11_Video_4_Bonus-TransparentVideo/index.html",
                 "requiredFeatures": [
                     "image_tracking"
