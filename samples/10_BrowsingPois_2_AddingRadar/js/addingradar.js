@@ -153,17 +153,6 @@ var World = {
       marker.distanceToUser = marker.markerObject.locations[0].distanceToUser()
     }
 
-    /*
-            Distance and altitude are measured in meters by the SDK. You may convert them to miles / feet if
-            required.
-        */
-    var distanceToUserValue =
-      marker.distanceToUser > 999
-        ? (marker.distanceToUser / 1000).toFixed(2) + ' km'
-        : Math.round(marker.distanceToUser) + ' m'
-
-    document.getElementById('poiDetailDistance').innerHTML = distanceToUserValue
-
     /* Show panel. */
     document.getElementById('panelPoiDetail').style.visibility = 'visible'
   },

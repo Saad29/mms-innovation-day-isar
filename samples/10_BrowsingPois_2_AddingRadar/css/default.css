@@ -98,7 +98,7 @@ html, body {
     }
 
     #panelPoiDetail {
-        width: 70vw;
+        width: 66vw;
     }
 
     .header {
@@ -135,7 +135,7 @@ html, body {
     }
 
     #panelPoiDetail {
-        width: calc(70vh + env(safe-area-inset-right));
+        width: calc(66vh + env(safe-area-inset-right));
         padding-right: env(safe-area-inset-right);
         padding-left: env(safe-area-inset-left);
         padding-right: env(safe-area-inset-right);
