@@ -1,13 +1,14 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/Users/binsajjad/fvm/versions/3.0.4"
-export "FLUTTER_APPLICATION_PATH=/Users/binsajjad/Developer/AR/wikitude-flutter-plugin-examples-master"
+export "FLUTTER_ROOT=/Users/hartmannkh/development/flutter"
+export "FLUTTER_APPLICATION_PATH=/Users/hartmannkh/Desktop/InnovationDays/mms-innovation-day-isar"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
-export "FLUTTER_TARGET=lib/main.dart"
+export "FLUTTER_TARGET=/Users/hartmannkh/Desktop/InnovationDays/mms-innovation-day-isar/lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=9.9.0"
 export "FLUTTER_BUILD_NUMBER=1"
+export "DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ=="
 export "DART_OBFUSCATION=false"
 export "TRACK_WIDGET_CREATION=true"
 export "TREE_SHAKE_ICONS=false"
-export "PACKAGE_CONFIG=.dart_tool/package_config.json"
+export "PACKAGE_CONFIG=/Users/hartmannkh/Desktop/InnovationDays/mms-innovation-day-isar/.dart_tool/package_config.json"
