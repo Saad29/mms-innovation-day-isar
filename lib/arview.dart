@@ -36,7 +36,7 @@ class ArViewState extends State<ArViewWidget> with WidgetsBindingObserver {
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
 
     architectWidget = new ArchitectWidget(
       onArchitectWidgetCreated: onArchitectWidgetCreated,
@@ -52,7 +52,7 @@ class ArViewState extends State<ArViewWidget> with WidgetsBindingObserver {
   void dispose() {
     this.architectWidget.pause();
     this.architectWidget.destroy();
-    WidgetsBinding.instance!.removeObserver(this);
+    WidgetsBinding.instance.removeObserver(this);
 
     // Wakelock.disable();
     super.dispose();
